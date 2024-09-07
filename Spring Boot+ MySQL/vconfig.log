@@ -1,0 +1,32 @@
+2024-09-07 19:21:49.119 [restartedMain] INFO  c.v.VehicleConfiguratorBackendApplication - Starting VehicleConfiguratorBackendApplication using Java 17.0.4 with PID 8240 (E:\VITA\9) Project\Shivam Project\Vehicle-Configurator-Project-master\Vehicle-Configurator-Project-master\Spring Boot+ MySQL\target\classes started by abhis in E:\VITA\9) Project\Shivam Project\Vehicle-Configurator-Project-master\Vehicle-Configurator-Project-master\Spring Boot+ MySQL)
+2024-09-07 19:21:49.157 [restartedMain] INFO  c.v.VehicleConfiguratorBackendApplication - The following 1 profile is active: "abhishek"
+2024-09-07 19:21:49.550 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-07 19:21:49.553 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-07 19:21:53.709 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-07 19:21:54.084 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 331 ms. Found 9 JPA repository interfaces.
+2024-09-07 19:21:57.175 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-09-07 19:21:57.222 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-07 19:21:57.223 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-09-07 19:21:57.473 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-07 19:21:57.483 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7923 ms
+2024-09-07 19:21:58.131 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-07 19:21:58.581 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-07 19:21:58.747 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-09-07 19:21:59.918 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-07 19:22:00.074 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-07 19:22:01.386 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7347d8a9
+2024-09-07 19:22:01.405 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-07 19:22:01.780 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-07 19:22:05.659 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-07 19:22:07.503 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-07 19:22:08.632 [restartedMain] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-07 19:22:11.794 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-07 19:22:13.510 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-09-07 19:22:13.698 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-09-07 19:22:13.737 [restartedMain] INFO  c.v.VehicleConfiguratorBackendApplication - Started VehicleConfiguratorBackendApplication in 26.304 seconds (process running for 34.21)
+2024-09-07 19:29:31.136 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-07 19:29:31.484 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-09-07 19:29:31.627 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 142 ms
+2024-09-07 19:29:34.341 [http-nio-8080-exec-2] INFO  c.vita.service.impl.UserServiceImpl - Creating user with email: abhikarmore7@gmail.com
+2024-09-07 19:29:34.344 [http-nio-8080-exec-2] INFO  c.vita.service.impl.UserServiceImpl - Randomly generated ID is: null
+2024-09-07 19:29:35.262 [http-nio-8080-exec-2] INFO  c.vita.service.impl.UserServiceImpl - User created successfully: User [userid=P5B6JN, address_line1=Kandri- Kanhan, address_line2=Kandri- Kanhan, city=Nagpur, company_name=Tcs, email=abhikarmore7@gmail.com, gst_number=78545, password=123, pin_code=441401, state=Maharashtra, telephone=73857184, username=abhi]
